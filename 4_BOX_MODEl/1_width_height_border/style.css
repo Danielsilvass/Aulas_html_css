@@ -1,0 +1,24 @@
+.caixa_width {
+    /* Borda 3 valores: espessura, tipo e cor > Width, style e color */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0000ff;
+
+    /* Shorthand > varios valores na mesma propriedade */
+
+    border: 2px solid #0000ff;
+
+    width: 200px;
+}
+
+.imagem_width {
+    width: 200px;
+    /* Sempre que mexemos no width de alguma imagem sempre mexe a altura da imagem(Heigt) para deixa-lá proporcional */
+}
+
+.caixa_height {
+    border: 1px dashed #248ee6;
+
+    height: 200px;
+    width: 200px ;
+}
